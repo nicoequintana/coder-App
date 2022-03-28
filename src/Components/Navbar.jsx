@@ -60,8 +60,8 @@ const NavContainer = styled.nav`
         right:0;
         margin:0 auto;
         text-align:center;
-        display:none;
         transition: opacity ease 1s;
+        display:none;
         
         a{
             color: #555;
@@ -73,6 +73,7 @@ const NavContainer = styled.nav`
         @media (min-width: 768px){
             position: initial;
             margin:0;
+            display:block;
             a{
                 font-size: 1rem;
                 color: #fff;
