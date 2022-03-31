@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CartWidget from './CartWidget';
 
+
+
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -134,7 +136,7 @@ export default function Navbar() {
             </Menu>
           </Box>
         </Toolbar>
-        <CartWidget />
+        <CartWidget/>
       </Container>
     </AppBar>
   );
