@@ -5,7 +5,7 @@ export default function CartWidget() {
 
   return (
       <span>
-          <img src={CartIcon} />
+          <img src={CartIcon} alt="icono de carrito de compras" />
       </span>
 
   );

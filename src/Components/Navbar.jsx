@@ -109,7 +109,7 @@ export default function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+              <CartWidget/>
               </IconButton>
             </Tooltip>
             <Menu
@@ -136,7 +136,6 @@ export default function Navbar() {
             </Menu>
           </Box>
         </Toolbar>
-        <CartWidget/>
       </Container>
     </AppBar>
   );
