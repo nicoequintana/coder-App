@@ -11,7 +11,7 @@ export default function ItemCount( { onAdd, stock } ) {
         if (cant < stock){
             setCant(cant + 1)
         } else {
-            alert('No hay productos en stock')
+            alert('Maximo por compra alcanzado')
         }
         
     }
@@ -23,7 +23,7 @@ export default function ItemCount( { onAdd, stock } ) {
         if (cant > 1) {
             setCant(cant - 1)
         } else {
-            alert('No podes descartas mas productos')
+            alert('No podes descartar mas productos')
         }
         
     }

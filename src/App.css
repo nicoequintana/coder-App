@@ -56,7 +56,7 @@ span{
 
 .btnCounter{
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
   cursor: pointer;
   transition: all ease-in-out .2s;
   padding: 5px;
@@ -75,7 +75,7 @@ span{
 }
 
 .btnCounter:hover{
-  box-shadow: 0 0 5px white;
+  box-shadow: 0 0 10px white;
 }
 
 .btnAddToCart{
